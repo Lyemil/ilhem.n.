@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <title> The children's house </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+    
+ </head>
+ <body>
+         <section class="sub-header"> 
+             <nav>  
+                 <a href="index.html"> <img src="images/logo3.png" class="logo"> </a>
+                 <div class="nav-links" id="navLinks">  <span id= "close" , class="material-icons-outlined" onclick="hideMenu()">
+                    close
+                    </span>
+                     <ul>
+                        <li> <a href="index.html"> HOME </a></li>
+                        <li> <a href="About.html.html"> ABOUT </a></li>
+                        <li> <a href="Courses.html.html"> COURSE </a></li>
+                        <li> <a href="Blog.html.html"> BLOG </a></li>
+                        <li> <a href="Contact.html.html"> CONTACT </a></li>
+                     </ul>
+
+                 </div>
+                 <span id="menu", class="material-icons-outlined" onclick="showMenu()">
+                    menu_open
+                    </span>
+               
+             </nav> 
+        <h1>About Us</h1>     
+
+      </section>
+      <section class="about-us">
+          <div class="row">
+              <div class="about-col">
+                  <h1>We Are The Best In The World</h1>
+                  <p>Why we are the best? <br>Our Children's house is the basic foundation of knowledge being imparted to a child.<br> It gives a chance to children to acquire knowledge on various fields of education,<br> such as people, literature, history, mathematics, politics, and other numerous subjects.<br> Our school has a very special family feel where all students, staff and parents feel valued and enjoy working together to ensure student success and wellbeing.<br>
+                    The school receives tremendous support from the parent community and is a special feature.<br>
+                    We have very experienced professional teachers who care and value other cultures.<br>
+                    Classroom buddies are trained to assist new students integrate socially and help them with their learning.<br>
+                    International Student leaders help welcome new students.</p>
+                <a href="" class="first-button page-about">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about3.jpeg">
+
+                </div>
+          </div>
+
+      </section>
+      
+    
+      <!---------------------------------------About---------------------->
+      <section class="about">
+          <h4>About Us</h4>
+          <p> Here Is Some Informations    </p>
+          <span id="info" class="material-icons-outlined">
+            account_circle
+            </span>
+            <span id="info2" class="material-icons-outlined">
+                info
+                </span>
+                <span id="info3" class="material-icons-outlined">
+                    call
+                    </span>
+          <div class="icons">
+              <h4> made with love  </h4>
+              <p>ilhem</p>
+            <span id="iconss", class="material-icons-outlined">
+                favorite_border
+                </span> 
+                
+
+
+          </div>
+
+      </section>
+         <!-------------------------------Java Script For Menu-------------------------------->
+         <script>
+            var navLinks = document.getElementById ("navLinks");
+            function showMenu() {
+               navLinks.style.right ="0"
+            }
+            function hideMenu() {
+               navLinks.style.right ="-200px"
+            }
+
+        </script>
+ </body>
+</html>

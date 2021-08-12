@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <title> The children's house </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+    
+ </head>
+ <body>
+         <section class="sub-header"> 
+             <nav>  
+                 <a href="index.html"> <img src="images/logo3.png" class="logo"> </a>
+                 <div class="nav-links" id="navLinks">  <span id= "close" , class="material-icons-outlined" onclick="hideMenu()">
+                    close
+                    </span>
+                     <ul>
+                      <li> <a href="index.html"> HOME </a></li>
+                      <li> <a href="About.html.html"> ABOUT </a></li>
+                      <li> <a href="Courses.html.html"> COURSE </a></li>
+                      <li> <a href="Blog.html.html"> BLOG </a></li>
+                      <li> <a href="Contact.html.html"> CONTACT </a></li>
+                     </ul>
+
+                 </div>
+                 <span id="menu", class="material-icons-outlined" onclick="showMenu()">
+                    menu_open
+                    </span>
+               
+             </nav> 
+        <h1>Our Training Offers & Our Team</h1> 
+        <!------------------ Blog page -------------------->    
+        <section class="blog-page">
+          <div class=row>
+              <div class="blog-left">
+                <img src="images/team.jpeg">
+                <h2> Our Training Offers & Our Team </h2>
+                <h3> Our Team </h3>
+               <p>
+                This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough teamةOur team contains a large group of qualified professors This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough team,This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough teamةOur team contains a large group of qualified professors,This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough teamةOur team contains a large group of qualified professors,This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough teamةOur team contains a large group of qualified professors,This is a super fun team with a lot of energy. Children's school do a great job presenting a big enough teamةOur team contains a large group of qualified professors.</p> <br>
+                <!------------------Comment-box-------->
+                
+                <div class="comment-box">
+                  <h3>Leave a comment</h3>
+                  <form class="comment-form">
+                    <input type="text"placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="6"placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="first-button page-about">POST COMMENT</button>
+
+                  </form>
+                </div>
+                 
+                          
+          
+
+              </div>
+              <div class="blog-right">
+              <h3>Our Training Offers</h3>
+              <div>
+                <span> Soroban  </span>
+                <span>+6 old</span>
+              </div>
+              <div>
+                <span>Global development of the child </span>
+                <span>+7  old</span>
+              </div>
+              <div>
+                <span> Arts  </span>
+                <span>+3 old</span>
+              </div>
+              <div>
+                <span> Preparing the child for kindergarten  </span>
+                <span>+2 old</span>
+              </div>
+              <div>
+                <span> Computer science   </span>
+                <span>+6 old</span>
+              </div>
+
+              </div>
+          </div>
+
+        </section>
+
+  
+      
+    
+      <!---------------------------------------About---------------------->
+      <section class="about">
+          <h4>About Us</h4>
+          <p> Here Is Some Informations    </p>
+          <span id="info" class="material-icons-outlined">
+            account_circle
+            </span>
+            <span id="info2" class="material-icons-outlined">
+                info
+                </span>
+                <span id="info3" class="material-icons-outlined">
+                    call
+                    </span>
+          <div class="icons">
+              <h4> made with love  </h4>
+              <p>ilhem</p>
+            <span id="iconss", class="material-icons-outlined">
+                favorite_border
+                </span> 
+                
+
+
+          </div>
+
+      </section>
+         <!-------------------------------Java Script For Menu-------------------------------->
+         <script>
+            var navLinks = document.getElementById ("navLinks");
+            function showMenu() {
+               navLinks.style.right ="0"
+            }
+            function hideMenu() {
+               navLinks.style.right ="-200px"
+            }
+
+        </script>
+ </body>
+</html>
